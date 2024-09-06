@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 1280px;
+  max-width: 1280px;
   padding-left: 40px;
   padding-right: 40px;
   margin: 0 auto;
@@ -70,7 +70,7 @@ body {
 
 .support {
   position: relative;
-  padding-top: 40px;
+  padding-top: 31px;
 }
 
 .wrapper {
@@ -569,24 +569,14 @@ body {
   visibility: hidden;
 }
 
-/* .arrow-next {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 7px;
-  height: 12px;
-  background-image: url("./icons/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+@media (max-width: 1280px) {
 }
 
-.arrow-prev {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 7px;
-  height: 12px;
-  background-image: url("./icons/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-} */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
