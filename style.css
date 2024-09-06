@@ -240,7 +240,7 @@ body {
   margin-top: 82px;
   border-radius: 20px;
   width: 996px;
-  height: 166px;
+  min-height: 166px;
   box-shadow: 0 20px 60px 0 rgba(26, 26, 26, 0.05);
   background: #fff;
 }
@@ -410,7 +410,7 @@ body {
   display: flex;
   border-radius: 16px;
   width: 282px;
-  height: 160px;
+  min-height: 160px;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
   padding: 16px 0 0 16px;
